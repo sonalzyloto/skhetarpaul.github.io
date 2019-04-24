@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="htmlforms1.css" rel="stylesheet">
+    <script src='https://punchydata.com/assets/js/tracker.js?accountId=5cba240936bb008d3a327ef7'></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" onsubmit="myFunction()">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="phone">Phone</label>
+          <input type="text" id="phone" name="phone">
+      
+          <label for="email">E-mail</E-mail></label>
+          <input type="text" id="email" name="email">
+          
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+        <p id="demo"></p>
+      </div>
+      
+      <script>
+      function myFunction() {
+        alert(`The form was submitted`);
+      }
+      </script>
+</body>
+</html>
